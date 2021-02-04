@@ -14,7 +14,7 @@ Kai Y, Tsoucas S, Suo S, Yuan GC. Multi-scale annotations of chromatin states in
 
 ## Annotation of 127 human cell types
 
-We applied the improved diHMM algorithm here to generate the multi-scale chromatin state annotations for the 127 human reference epigenomes in the Roadmap and ENCODE consortia. Detailed information of the information on the 127 epigenomes can be found at [Roadmap Epigenomics Consortium and Kundaje et.al](https://www.nature.com/articles/nature14248) or [this site](https://egg2.wustl.edu/roadmap/web_portal/meta.html).
+We applied diHMM v1.0 to generate the multi-scale chromatin state annotations for the 127 human reference epigenomes in the Roadmap and ENCODE consortia. Detailed information of the information on the 127 epigenomes can be found at [Roadmap Epigenomics Consortium and Kundaje et.al](https://www.nature.com/articles/nature14248) or [this site](https://egg2.wustl.edu/roadmap/web_portal/meta.html).
 
 ## A first impression of diHMM states
 We generated the chromatin state maps at the nucleosome (200bp resolution) and domain (4kb resolution) level. Here we show a snapshot of diHMM states across 127 epigenomes below.
