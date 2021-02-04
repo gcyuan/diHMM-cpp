@@ -1,7 +1,18 @@
 # diHMM v1.0
-Here presents an improved implementation of diHMM, contributed by Stephanos Tsoucas and Yan Kai.
 
-diHMM is a novel chromatin segmentation for annotating chromatin states at two length scales. It was originally developed and described in the publication *Multi-scale chromatin state annotation using a hierarchical hidden Markov model* ([Marco et.al 2017](https://www.nature.com/articles/ncomms15011)). Detailed information of the project can be found at [this page](https://github.com/gcyuan/diHMM).
+diHMM stands for Hierarchical Hidden Markov Model. diHMM is a computational method for finding chromatin states at multiple scales. The model takes as input a multidimensional set of histone modifications for several cell types and classifies the genome into a preselected number of nucleosome-level and domain-level hidden states. 
+
+The original version (v1.0 beta) was led by Eugenio Marco, with assistance from Wouter Meuleman, Jialiang Huang, Luca Pinello, Manolis Kellis and Guo-Cheng Yuan. The method was implemented in MATLAB. The code and sample data are available at (https://github.com/gcyuan/diHMM).
+
+In this newer version (v1.0), the computational efficiency is siginificantly improved by implementing in C++. Additional improvement is achieved by using an ensemble clustering approach. The development of this newer version was led by Stephanos Tsoucas and Yan Kai with assistance from Shengbao Suo.
+
+**References:**
+Marco E*, Meuleman W*, Huang J*, Glass K, Pinello L, Wang J, Kellis M†, Yuan GC†. Multi-scale chromatin state annotation using a hierarchical hidden Markov model. Nature Commun. 2017 Apr 7;8:15011. (https://www.nature.com/articles/ncomms15011)).
+
+Kai Y, Tsoucas S, Suo S, Yuan GC. Multi-scale annotations of chromatin states in 127 human cell-types. bioRxiv. (https://www.biorxiv.org/content/10.1101/2020.12.22.424078v1).
+
+
+## Annotation of 127 human cell types
 
 We applied the improved diHMM algorithm here to generate the multi-scale chromatin state annotations for the 127 human reference epigenomes in the Roadmap and ENCODE consortia. Detailed information of the information on the 127 epigenomes can be found at [Roadmap Epigenomics Consortium and Kundaje et.al](https://www.nature.com/articles/nature14248) or [this site](https://egg2.wustl.edu/roadmap/web_portal/meta.html).
 
