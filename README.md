@@ -4,7 +4,7 @@ diHMM stands for Hierarchical Hidden Markov Model. diHMM is a computational meth
 
 The original version (v1.0 beta) was led by Eugenio Marco, with assistance from Wouter Meuleman, Jialiang Huang, Luca Pinello, Manolis Kellis and Guo-Cheng Yuan. The method was implemented in MATLAB. The code and sample data are available at (https://github.com/gcyuan/diHMM).
 
-In this newer version (v1.0), the computational efficiency is siginificantly improved by implementing in C++. Additional improvement is achieved by using an ensemble clustering approach. The development of this newer version was led by Stephanos Tsoucas and Yan Kai with assistance from Shengbao Suo.
+In this newer version (v1.0), the computational efficiency is siginificantly improved by implementing in C++. Additional improvement is achieved by using an ensemble clustering approach. The development of this newer version was led by Stephanos Tsoucas and Yan Kai with assistance from Shengbao Suo and Guo-Cheng Yuan.
 
 **References:**
 Marco E*, Meuleman W*, Huang J*, Glass K, Pinello L, Wang J, Kellis M†, Yuan GC†. Multi-scale chromatin state annotation using a hierarchical hidden Markov model. Nature Commun. 2017 Apr 7;8:15011. (https://www.nature.com/articles/ncomms15011)).
