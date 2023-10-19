@@ -1,14 +1,14 @@
-# diHMM (Python/C++) working in progress
+# diHMM (C++/Python version)
 
 ## Note: 
-This is the updated version of the diHMM model (Marco et al. 2017, Nat Comm). The original package was written in MATLAB and can be accessed at gcyuan/diHMM. In this updated version, we have increased computational efficiency in two major ways: 1. Implementing the code in C++ to increase computational speed. 2. To use an ensemble approach to aggregate information from multiple models each trained on a different sample. The details of these changes are described in (Kai et al. 2020 bioRxiv) 
+This is the updated version of the diHMM model (Marco et al. 2017, Nat Comm). The original package was written in MATLAB and can be accessed at gcyuan/diHMM. In this updated version, we have increased computational efficiency in two major ways: 1. Implementing the code in C++ along with a Python wrapper to increase computational speed. 2. To use an ensemble approach to aggregate information from multiple models each trained on a different sample. The details of these changes are described in (Kai et al. 2020 bioRxiv) 
 
 ## Overview
 diHMM stands for Hierarchical Hidden Markov Model. diHMM is a computational method for finding chromatin states at multiple scales. The model takes as input a multidimensional set of histone modifications for several cell types and classifies the genome into a preselected number of nucleosome-level and domain-level hidden states. 
 
-The original version (v1.0 beta) was led by Eugenio Marco, with assistance from Wouter Meuleman, Jialiang Huang, Luca Pinello, Manolis Kellis and Guo-Cheng Yuan. The method was implemented in MATLAB. The code and sample data are available at (https://github.com/gcyuan/diHMM).
+The diHMM model was originally developed by Eugenio Marco, with assistance from Wouter Meuleman, Jialiang Huang, Luca Pinello, Manolis Kellis and Guo-Cheng Yuan. The method was originally implemented in MATLAB. The code and sample data are available at (https://github.com/gcyuan/diHMM).
 
-In this newer version (v1.0), the computational efficiency is siginificantly improved by implementing in C++. Additional improvement is achieved by using an ensemble clustering approach. The development of this newer version was led by Stephanos Tsoucas and Yan Kai with assistance from Shengbao Suo and Guo-Cheng Yuan.
+In this updated version, the computational efficiency is siginificantly improved by implementing in C++. Additional improvement is achieved by using an ensemble clustering approach. The development of this newer version was led by Stephanos Tsoucas and Yan Kai with assistance from Shengbao Suo, Xuan Cao, and Guo-Cheng Yuan.
 
 **References:**
 Marco E*, Meuleman W*, Huang J*, Glass K, Pinello L, Wang J, Kellis M†, Yuan GC†. Multi-scale chromatin state annotation using a hierarchical hidden Markov model. Nature Commun. 2017 Apr 7;8:15011. (https://www.nature.com/articles/ncomms15011)).
