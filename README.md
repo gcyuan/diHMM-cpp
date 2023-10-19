@@ -1,7 +1,7 @@
 # diHMM (Python/C++) working in progress
 
 ## Note: 
-This is the Python / C++ version of diHMM. It has increased computational efficiency and can be freely accessible by any user. The code is still working in progress. 
+This is the updated version of diHMM. The original package was written in MATLAB and can be accessed at gcyuan/diHMM. In this updated version, we have increased computational efficiency in two major ways: 1. Implementing the code in C++ to increase computational speed. 2. To use an ensemble approach to aggregate information from multiple models each trained on a different sample. The details of these changes are described in (Kai et al. 2020 bioRxiv) 
 
 ## Overview
 diHMM stands for Hierarchical Hidden Markov Model. diHMM is a computational method for finding chromatin states at multiple scales. The model takes as input a multidimensional set of histone modifications for several cell types and classifies the genome into a preselected number of nucleosome-level and domain-level hidden states. 
