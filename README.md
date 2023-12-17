@@ -181,6 +181,7 @@ Go into the build dir and run
 cd diHMM-cpp/build
 cmake ..
 ```
+```
 -- The C compiler identification is GNU 9.4.0
 -- The CXX compiler identification is GNU 9.4.0
 -- Detecting C compiler ABI info-- Detecting C compiler ABI info - done
@@ -201,11 +202,12 @@ cmake ..
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /sc/arion/projects/YuanLab/gcproj/xuan/dihmm-cpp/build
-
+```
 ```
 make
 ```
 
+```
 Consolidate compiler generated dependencies of target dihmm
 [ 14%] Building CXX object CMakeFiles/dihmm.dir/Model.cpp.o
 [ 28%] Building CXX object CMakeFiles/dihmm.dir/Emissions.cpp.o
@@ -216,6 +218,7 @@ Consolidate compiler generated dependencies of target dihmm_ext
 [ 85%] Building CXX object CMakeFiles/dihmm_ext.dir/dihmm_ext.cpp.o
 [100%] Linking CXX shared library dihmm_ext.so
 [100%] Built target dihmm_ext
+```
 
 4. Set path
 
