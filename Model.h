@@ -77,7 +77,7 @@ Model initial_model(const mat &bin_data, unsigned int n_bin_states,
                     unsigned int n_domain_states, unsigned int n_histone_marks,
                     unsigned int domain_size);
 
-Model load_model(const std::string &directory, const uword domain_size);
+Model load_model(const std::string &directory, const int domain_size);
 
 bool save_model(const Model &m, const std::string &directory);
 
