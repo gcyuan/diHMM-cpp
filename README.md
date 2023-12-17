@@ -180,12 +180,47 @@ Go into the build dir and run
 ```
 cd diHMM-cpp/build
 cmake ..
+```
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /sc/arion/projects/YuanLab/gcproj/xuan/anaconda3/envs/dihmm/bin/x86_64-conda-linux-gnu-cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /sc/arion/projects/YuanLab/gcproj/xuan/anaconda3/envs/dihmm/bin/x86_64-conda-linux-gnu-c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Armadillo: /sc/arion/projects/YuanLab/gcproj/xuan/anaconda3/envs/dihmm/include (found version "11.2.0") 
+-- Found PythonLibs: /sc/arion/projects/YuanLab/gcproj/xuan/anaconda3/envs/dihmm/lib/libpython2.7.so (found suitable version "2.7.18", minimum required is "2.7") 
+-- Found Boost: /sc/arion/projects/YuanLab/gcproj/xuan/anaconda3/envs/dihmm/lib/cmake/Boost-1.72.0/BoostConfig.cmake (found version "1.72.0") found components: python numpy filesystem 
+-- Looking for sgemm_
+-- Looking for sgemm_ - found
+-- Found BLAS: /sc/arion/projects/YuanLab/gcproj/xuan/anaconda3/envs/dihmm/lib/libopenblas.so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /sc/arion/projects/YuanLab/gcproj/xuan/dihmm-cpp/build
+
+```
 make
 ```
+
+Consolidate compiler generated dependencies of target dihmm
+[ 14%] Building CXX object CMakeFiles/dihmm.dir/Model.cpp.o
+[ 28%] Building CXX object CMakeFiles/dihmm.dir/Emissions.cpp.o
+[ 42%] Building CXX object CMakeFiles/dihmm.dir/Forward_Backward.cpp.o
+[ 57%] Linking CXX shared library libdihmm.so
+[ 71%] Built target dihmm
+Consolidate compiler generated dependencies of target dihmm_ext
+[ 85%] Building CXX object CMakeFiles/dihmm_ext.dir/dihmm_ext.cpp.o
+[100%] Linking CXX shared library dihmm_ext.so
+[100%] Built target dihmm_ext
+
 4. Set path
 
 ```
-export PYTHONPATH=${dihmm_dir_path}/diHMM-cpp/build
+export PYTHONPATH=${your_dihmm_dir}/diHMM-cpp/build
 ```
 
 Then you can open a Python shell in the same dir and do
