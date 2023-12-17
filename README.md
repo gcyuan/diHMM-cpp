@@ -172,7 +172,7 @@ conda activate dihmm
 
 2. Downlaod dihmm-cpp
 ```
-git clone https://github.com/XuanCao-CX/diHMM-cpp.git 
+git clone https://github.com/gcyuan/diHMM-cpp.git
 ```
 
 3. Install
