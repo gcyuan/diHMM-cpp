@@ -240,7 +240,7 @@ bool save_model(const Model &m, const std::string &directory) {
   return success;
 }
 
-Model load_model(const std::string &directory, const uword domain_size) {
+Model load_model(const std::string &directory, const int domain_size) {
 
   mat domain_transitions;
   domain_transitions.load(directory + DOMAIN_TRANSITIONS);
