@@ -146,8 +146,8 @@ Model_Py run_dihmm_py(const int n_bin_states, const int n_domain_states,
                                               input_chromosomes));
 }
 
-Model_Py load_model_py(const std::string &directory, const uword domain_size) {
-  return Model_Py(load_model(directory, domain_size));
+Model_Py load_model_py(const std::string &directory, const int domain_size) {
+  return load_model(directory, domain_size);
 }
 
 bool save_model_py(const Model_Py &m, const std::string &directory) {
