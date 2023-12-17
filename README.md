@@ -163,16 +163,34 @@ To see full meta information about each reference epigenome, please visit [here]
 These maps can be freely downloaded from [here](https://www.dropbox.com/sh/85nxvu1hiwhwm9r/AAB0pQFvwD1KRqpwOOHf6A_Xa?dl=0).
 
 ## Installation
+1. Create Conda Environment
+   python version: 2.7
+```
+conda create -y -n dihmm python=2.7
+conda activate dihmm
+```
+
+2. Downlaod dihmm-cpp
+```
+git clone https://github.com/XuanCao-CX/diHMM-cpp.git 
+```
+
+3. Install
 Go into the build dir and run
 ```
+cd diHMM-cpp/build
 cmake ..
 make
 ```
+4. Set path
+
+```
+export PYTHONPATH=${dihmm_dir_path}/diHMM-cpp/build
+```
+
 Then you can open a Python shell in the same dir and do
 ```
->>> import greet_ext
->>> greet_ext.greet()
-'Hello world'
+>>> import dihmm_ext
 ```
 
 ## Training a model
