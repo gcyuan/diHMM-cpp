@@ -1,5 +1,11 @@
 #!/bin/bash
 
+################################################
+#__author__ = "Xuan Cao"
+#__date__ = "2023-12-19"
+#__email__ = "caoxuan"
+################################################
+
 usage() {
     echo "Usage: convert bed to bedgraph file. "
     echo " 	Normalized value: bins per million mapped reads (BPM) , depth (nFrag or ReadsInTss) and cell_num_scale)."
