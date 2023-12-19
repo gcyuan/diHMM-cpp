@@ -220,7 +220,20 @@ Consolidate compiler generated dependencies of target dihmm_ext
 [100%] Built target dihmm_ext
 ```
 
-4. Set path
+4. Install the dependency in your environment
+bedtools, wigToBigWig, fetchChromSizes, bigWigToBedGraph required
+   
+```
+conda install -c bioconda bedtools
+wget https://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64.v369/wigToBigWig
+wget https://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64.v369/fetchChromSizes
+wget https://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64.v369/bigWigToBedGraph
+
+```
+
+
+
+5. Set path
 
 ```
 export PYTHONPATH=${your_dihmm_dir}/diHMM-cpp/build
