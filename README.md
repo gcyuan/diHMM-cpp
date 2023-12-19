@@ -221,6 +221,7 @@ Consolidate compiler generated dependencies of target dihmm_ext
 ```
 
 4. Install the dependency in your environment
+
 bedtools, wigToBigWig, fetchChromSizes, bigWigToBedGraph required
    
 ```
