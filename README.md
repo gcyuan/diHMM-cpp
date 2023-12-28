@@ -279,3 +279,10 @@ optional arguments:
   --bin_res BIN_RES     bin length used to generate binarized files.
                         Default=500.
 ```
+
+## Visualization the results in Genome browser
+
+![H1_H3K4me3_CDC14A](https://github.com/gcyuan/diHMM-cpp/assets/57889560/c7151491-b072-42aa-ba8b-896ad76cb522)
+
+
+
