@@ -246,12 +246,7 @@ Then you can open a Python shell in the same dir and do
 ```
 
 ## Training a model
-Training a diHMM model can be done by using the script *train.py*, after making necessary changes to input data path and other parameters.
-
-## Applying a diHMM model for chromatin state annotation
-Annotation can be done with the script *annotation.py*, after making necessary changes to input data path and other parameters.
-
-6. Train diHMM model
+Training a diHMM model can be done by using the script *Train_diHMM.py*, after making necessary changes to input data path and other parameters.
 
 ```
 python dihmm-cpp/Train_diHMM.py -h
@@ -283,4 +278,6 @@ optional arguments:
   --bin_res BIN_RES     bin length used to generate binarized files.
                         Default=500.
 ```
- 
+
+## Applying a diHMM model for chromatin state annotation
+Annotation can be done with the script *annotation.py*, after making necessary changes to input data path and other parameters.
