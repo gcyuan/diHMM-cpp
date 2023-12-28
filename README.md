@@ -284,7 +284,6 @@ optional arguments:
 
 ![example](images/H1_H3K4me3_CDC14A.jpg)
 
-https://github.com/gcyuan/diHMM-cpp/blob/master/images/H1_H3K4me3_CDC14A.jpg
 
 
 
