@@ -249,6 +249,7 @@ Then you can open a Python shell in the same dir and do
 Training a diHMM model can be done by using the script *Train_diHMM.py*, after making necessary changes to input data path and other parameters.
 
 Including applying a diHMM model for chromatin state annotation. Annotation can be done with the script *annotation.py* using in *Train_diHMM.py*.
+
 ```
 python dihmm-cpp/Train_diHMM.py -h
 usage: Train_diHMM.py [-h] -i INPUT_DIR --clusters CLUSTERS --chroms CHROMS
@@ -279,6 +280,7 @@ optional arguments:
   --bin_res BIN_RES     bin length used to generate binarized files.
                         Default=500.
 ```
+Here is the [toturial](https://github.com/gcyuan/diHMM-cpp/blob/master/Toturial/diHMM-cpp%20of%20H3K4me3%20in%20hESC%20H1%20Cells.ipynb) for applying diHMM-cpp for H3K4me3 in hESC H1 Cells.
 
 ## Visualization the results in Genome browser
 
