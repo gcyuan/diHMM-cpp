@@ -250,3 +250,37 @@ Training a diHMM model can be done by using the script *train.py*, after making 
 
 ## Applying a diHMM model for chromatin state annotation
 Annotation can be done with the script *annotation.py*, after making necessary changes to input data path and other parameters.
+
+6. Train diHMM model
+
+```
+python dihmm-cpp/Train_diHMM.py -h
+usage: Train_diHMM.py [-h] -i INPUT_DIR --clusters CLUSTERS --chroms CHROMS
+                         -o OUT_DIR [--n_bin_states N_BIN_STATES]
+                         [--n_domain_states N_DOMAIN_STATES]
+                         [--domain_size DOMAIN_SIZE] [--tolerance TOLERANCE]
+                         [--max_iter MAX_ITER] [--bin_res BIN_RES]
+
+Train diHMM runner.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INPUT_DIR          The input binarized files dir. File name:
+                        X1_chr1_binary.txt.
+  --clusters CLUSTERS   Clusters/cell_types names used to train model.
+                        Example: X1,X2 .
+  --chroms CHROMS       chrs used to train model. Example: chr1,chr2 .
+  -o OUT_DIR            Output dir.
+  --n_bin_states N_BIN_STATES
+                        Number of bin states. Default=2.
+  --n_domain_states N_DOMAIN_STATES
+                        Number of domain states. Default=4.
+  --domain_size DOMAIN_SIZE
+                        Number of domain size. Default=8.
+  --tolerance TOLERANCE
+                        Number of bin states. Default=1e-6.
+  --max_iter MAX_ITER   Max iter number. Default=500.
+  --bin_res BIN_RES     bin length used to generate binarized files.
+                        Default=500.
+```
+ 
