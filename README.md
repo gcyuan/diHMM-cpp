@@ -281,8 +281,8 @@ optional arguments:
                         Default=500.
 ```
 
-## Tutorial
-Here is the [tutorial](https://github.com/gcyuan/diHMM-cpp/blob/master/Toturial/diHMM-cpp%20of%20H3K4me3%20in%20hESC%20H1%20Cells.ipynb) for applying diHMM-cpp for H3K4me3 in hESC H1 Cells.
+## Toturial
+Here is the [toturial](https://github.com/gcyuan/diHMM-cpp/blob/master/Toturial/diHMM-cpp%20of%20H3K4me3%20in%20hESC%20H1%20Cells.ipynb) for applying diHMM-cpp for H3K4me3 in hESC H1 Cells.
 
 ## Visualization the results in Genome browser
 
