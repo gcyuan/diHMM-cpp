@@ -282,7 +282,7 @@ optional arguments:
 ```
 
 ## Tutorial
-Here is the [tutorial](https://github.com/gcyuan/diHMM-cpp/blob/master/Toturial/diHMM-cpp%20of%20H3K4me3%20in%20hESC%20H1%20Cells.ipynb) for applying diHMM-cpp for H3K4me3 in hESC H1 Cells.
+Here is the [tutorial](https://github.com/gcyuan/diHMM-cpp/blob/master/Tutorial/Example%20-%20Analyzing%20ENCODE%20H3K4me3%20data%20in%20hESC%20Cells.ipynb) for applying diHMM-cpp for H3K4me3 in hESC H1 Cells.
 
 ## Visualization the results in Genome browser
 
