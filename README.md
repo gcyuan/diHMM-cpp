@@ -273,9 +273,9 @@ optional arguments:
   --n_domain_states N_DOMAIN_STATES
                         Number of domain states. Default=4.
   --domain_size DOMAIN_SIZE
-                        Number of domain size. Default=8.
+                        Number of bins to merge as domain. Default=8.
   --tolerance TOLERANCE
-                        Number of bin states. Default=1e-6.
+                        Tolerance. Default=1e-6.
   --max_iter MAX_ITER   Max iter number. Default=500.
   --bin_res BIN_RES     bin length used to generate binarized files.
                         Default=500.
